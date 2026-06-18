@@ -1,0 +1,20 @@
+# Xcode / build artifacts
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# XcodeGen generates the .xcodeproj; project.yml is the source of truth
+*.xcodeproj
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
